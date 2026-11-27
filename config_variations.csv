@@ -1,0 +1,53 @@
+Category,Subcategory,Feature,Description
+General,Layout,Single-step,All checkout sections displayed on a single scrollable page.
+General,Layout,Multi-step,Guided sequential steps (Customer -> Delivery -> Payment).
+General,Templates,Core,Individual (B2C); Organization (B2B).
+General,Templates,Merchants,Usesi; Helmet House; Pierce; Stanley Black and Decker; Electrolux; Kohler; Office Depot; Amazon Business.
+General,Status,Logged out,Anonymous user flow with standard lead capture fields.
+General,Status,Logged in,B2B/Authenticated flow showing contract and organizational data.
+Customer,Logged Out,Sign in button,Call to action for existing users to authenticate.
+Customer,Logged Out,Email,Primary communication and identification field.
+Customer,Logged Out,Full name,User identification field.
+Customer,Logged Out,Phone number,Contact information for delivery updates.
+Customer,Logged Out,News checkbox,Opt-in for marketing and newsletter communications.
+Customer,Logged In,Contract,Displays the active commercial agreement or company name.
+Customer,Logged In,Contract switcher,Allows B2B users to toggle between different purchasing contracts.
+Customer,Logged In,Organizational unit,Shows the specific department or business unit within the company.
+Customer,Logged In,Username,User handle or login identifier.
+Customer,Logged In,Email,Authenticated user email address.
+Customer,Logged In,Full name,Authenticated user display name.
+Customer,Logged In,Phone,Authenticated user contact number.
+Customer,Logged In,Roles,Access permissions (e.g. Buyer; Manager; Admin; Approver).
+Cart,Line Items,Image,Product thumbnail for visual identification.
+Cart,Line Items,Name,Detailed product title and description.
+Cart,Line Items,Variant,SKU or specific variation details (color; size; storage).
+Cart,Line Items,Discount badge,Visual indicator of savings applied to the item.
+Cart,Line Items,Quantity selector,Interactive control to increase or decrease item count.
+Cart,Line Items,Remove action,Button to delete the specific item from the cart.
+Cart,Line Items,Prices,Individual unit price and calculated line subtotal.
+Delivery,Settings,Shipping address,Standard delivery destination form.
+Delivery,Settings,Shipping method,Carrier selection (Standard; Express; Pickup).
+Delivery,Settings,Returns,Optional paid protection for free returns on eligible items.
+Delivery,Settings,Multiple shipping addresses,Allows splitting the order across different delivery locations.
+Delivery,Settings,Multiple shipping methods,Allows selecting different carriers for different items/locations.
+Payment,Methods,Credit card,Direct entry for Visa; Mastercard; Amex; etc.
+Payment,Methods,Account billing,Payment through credit line.
+Payment,Methods,Shop Pay,Express checkout and installment options.
+Payment,Methods,PayPal,Redirect to digital wallet for secure payment.
+Payment,Methods,Pix,Brazilian instant payment method.
+Payment,Methods,Google Pay,Quick mobile payment solution.
+Payment,Methods,Afterpay,Buy now; pay later installment service.
+Payment,Settings,Billing address,Form for financial documentation address.
+Payment,Settings,Use shipping address,Checkbox to synchronize billing with delivery address.
+Additional Data,Accounting,Order level,Fields for PO Number; Cost Center; and Department at the header.
+Additional Data,Accounting,Item level,Granular accounting codes per specific product line.
+Additional Data,Comments,Order level,General instructions for the fulfillment team.
+Additional Data,Comments,Item level,Specific notes or requirements for individual products.
+Actions,Global,Place order,The primary conversion button to finalize the transaction.
+Actions,Global,Request quote,B2B-specific action to start a negotiation flow.
+Actions,Global,Import file,Utility to bulk add items via CSV/Excel upload.
+Actions,Global,Share order,Generates a link to share the cart contents with others.
+Actions,Global,Print order,Formats the current checkout state for physical printing.
+Actions,Global,Save order,Persists the current cart state for later retrieval.
+Summary,Totals,Taxes,Toggle visibility of calculated sales tax in the final total.
+Summary,Totals,Budget,B2B widget showing available budget vs. current order cost.
